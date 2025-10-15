@@ -1,0 +1,113 @@
+{
+  "categories": [
+    {
+      "id": "cars",
+      "name": "Cars",
+      "icon": "Car",
+      "subcategories": [
+        { "id": "cars_all", "name": "All Cars", "fields": ["brand", "model", "year", "fuel_type", "transmission"] }
+      ]
+    },
+    {
+      "id": "bikes",
+      "name": "Bikes",
+      "icon": "Bike",
+      "subcategories": [
+        { "id": "motorcycles", "name": "Motorcycles", "fields": ["brand", "model", "year"] },
+        { "id": "scooters", "name": "Scooters", "fields": ["brand", "model", "year"] },
+        { "id": "bicycles", "name": "Bicycles", "fields": ["brand", "model"] }
+      ]
+    },
+    {
+      "id": "properties",
+      "name": "Properties",
+      "icon": "Home",
+      "subcategories": [
+        { "id": "houses_sale", "name": "Houses for Sale", "fields": ["bedrooms", "bathrooms", "furnishing"] },
+        { "id": "houses_rent", "name": "Houses for Rent", "fields": ["bedrooms", "bathrooms", "furnishing"] },
+        { "id": "lands", "name": "Lands & Plots", "fields": [] }
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "icon": "Monitor",
+      "subcategories": [
+        { "id": "tv", "name": "TVs", "fields": ["brand", "model"] },
+        { "id": "laptops", "name": "Laptops", "fields": ["brand", "model"] },
+        { "id": "cameras", "name": "Cameras", "fields": ["brand", "model"] }
+      ]
+    },
+    {
+      "id": "mobiles",
+      "name": "Mobiles",
+      "icon": "Smartphone",
+      "subcategories": [
+        { "id": "phones", "name": "Mobile Phones", "fields": ["brand", "model"] },
+        { "id": "accessories", "name": "Accessories", "fields": [] },
+        { "id": "tablets", "name": "Tablets", "fields": ["brand", "model"] }
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial Vehicles",
+      "icon": "Truck",
+      "subcategories": [
+        { "id": "commercial_vehicles", "name": "Commercial Vehicles", "fields": ["brand", "model", "year"] }
+      ]
+    },
+    {
+      "id": "furniture",
+      "name": "Furniture",
+      "icon": "Sofa",
+      "subcategories": [
+        { "id": "sofa", "name": "Sofa & Dining", "fields": [] },
+        { "id": "beds", "name": "Beds & Wardrobes", "fields": [] }
+      ]
+    },
+    {
+      "id": "jobs",
+      "name": "Jobs",
+      "icon": "Briefcase",
+      "subcategories": [
+        { "id": "data_entry", "name": "Data Entry & Back Office", "fields": [] },
+        { "id": "sales", "name": "Sales & Marketing", "fields": [] }
+      ]
+    }
+  ],
+  "common_fields": {
+    "brand": { "type": "text", "label": "Brand", "required": true },
+    "model": { "type": "text", "label": "Model", "required": true },
+    "year": { "type": "select", "label": "Year", "options": "year_range", "required": true },
+    "fuel_type": {
+      "type": "select",
+      "label": "Fuel Type",
+      "options": ["Petrol", "Diesel", "CNG", "Electric", "Hybrid"],
+      "required": true
+    },
+    "transmission": {
+      "type": "select",
+      "label": "Transmission",
+      "options": ["Manual", "Automatic"],
+      "required": true
+    },
+    "bedrooms": {
+      "type": "select",
+      "label": "Bedrooms",
+      "options": ["1", "2", "3", "4", "5+"],
+      "required": true
+    },
+    "bathrooms": {
+      "type": "select",
+      "label": "Bathrooms",
+      "options": ["1", "2", "3", "4+"],
+      "required": true
+    },
+    "furnishing": {
+      "type": "select",
+      "label": "Furnishing",
+      "options": ["Furnished", "Semi-Furnished", "Unfurnished"],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "user": {
+    "name": "Hello",
+    "avatar": "H",
+    "stepsLeft": 3
+  },
+  "menuItems": [
+    { "icon": "MdFavorite", "label": "My Ads", "link": "/my-ads" },
+    { "icon": "MdShoppingCart", "label": "Buy Business Packages", "link": "/packages", "highlight": true },
+    { "icon": "MdPayment", "label": "Bought Packages & Billing", "link": "/billing" },
+    { "icon": "MdNotifications", "label": "Notifications", "link": "/notifications", "badge": "5" },
+    { "icon": "MdMessage", "label": "Messages", "link": "/messages", "badge": "2" },
+    { "icon": "MdSettings", "label": "Settings", "link": "/settings" },
+    { "icon": "MdHelp", "label": "Help", "link": "/help" },
+    { "icon": "MdExitToApp", "label": "Logout", "link": "/logout" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "logos": [
+    {
+      "name": "NaaMads",
+      "src": "/assets/images/naamads.png",
+      "alt": "NaaMads Logo",
+      "link": "https://naamads.com"
+    },
+    {
+      "name": "OLX",
+      "src": "/assets/images/olx.png",
+      "alt": "OLX Logo",
+      "link": "https://olx.in"
+    }
+  ],
+  "sections": {
+    "Popular Locations": ["Kolkata", "Mumbai", "Chennai", "Pune"],
+    "Trending Locations": ["Bhubaneshwar", "Hyderabad", "Chandigarh", "Nashik"],
+    "About Us": ["Tech@OLX", "Careers"],
+    "OLX": ["Blog", "Help", "Sitemap", "Legal & Privacy information", "Vulnerability Disclosure Program"]
+  },
+  "socialLinks": [
+    { "name": "Facebook", "icon": "FaFacebook", "link": "https://facebook.com" },
+    { "name": "Instagram", "icon": "FaInstagram", "link": "https://instagram.com" },
+    { "name": "YouTube", "icon": "FaYoutube", "link": "https://youtube.com" },
+    { "name": "X", "icon": "FaXTwitter", "link": "https://x.com" },
+    { "name": "WhatsApp", "icon": "FaWhatsapp", "link": "https://whatsapp.com" },
+    { "name": "LinkedIn", "icon": "FaLinkedin", "link": "https://linkedin.com" }
+  ]
+}

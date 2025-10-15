@@ -1,0 +1,62 @@
+{
+  "categories": [
+    {
+      "id": "cars",
+      "name": "Cars",
+      "subcategories": ["All Cars", "Hatchback", "Sedan", "SUV", "MUV", "Luxury Cars"]
+    },
+    {
+      "id": "bikes",
+      "name": "Bikes",
+      "subcategories": ["Motorcycles", "Scooters", "Spare Parts", "Bicycles"]
+    },
+    {
+      "id": "properties",
+      "name": "Properties",
+      "subcategories": [
+        "For Sale: Houses & Apartments",
+        "For Rent: Houses & Apartments",
+        "Lands & Plots",
+        "For Rent: Shops & Offices",
+        "For Sale: Shops & Offices",
+        "PG & Guest Houses"
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics & Appliances",
+      "subcategories": [
+        "TVs, Video - Audio",
+        "Kitchen & Other Appliances",
+        "Computers & Laptops",
+        "Cameras & Lenses",
+        "Games & Entertainment",
+        "Fridges",
+        "Computer Accessories",
+        "Hard Disks, Printers & Monitors",
+        "ACs",
+        "Washing Machines"
+      ]
+    },
+    {
+      "id": "mobiles",
+      "name": "Mobiles",
+      "subcategories": ["Mobile Phones", "Accessories", "Tablets"]
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial Vehicles",
+      "subcategories": ["Commercial & Other Vehicles", "Spare Parts"]
+    },
+    {
+      "id": "furniture",
+      "name": "Furniture",
+      "subcategories": ["Sofa & Dining", "Beds & Wardrobes", "Home Decor & Garden", "Kids Furniture"]
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion",
+      "subcategories": ["Men", "Women", "Kids"]
+    }
+  ]
+}
