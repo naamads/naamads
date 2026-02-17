@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "iPhone 13",
+      "category": "Mobile",
+      "location": "India",
+      "price": 52000
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S22",
+      "category": "Mobile",
+      "location": "Delhi",
+      "price": 48000
+    },
+    {
+      "id": 3,
+      "title": "Honda City Car",
+      "category": "Car",
+      "location": "Mumbai",
+      "price": 950000
+    },
+    {
+      "id": 4,
+      "title": "Royal Enfield Classic 350",
+      "category": "Bike",
+      "location": "Bangalore",
+      "price": 210000
+    },
+    {
+      "id": 5,
+      "title": "Dell Inspiron Laptop",
+      "category": "Electronics",
+      "location": "India",
+      "price": 65000
+    },
+    {
+      "id": 6,
+      "title": "Wooden Sofa Set",
+      "category": "Furniture",
+      "location": "Chennai",
+      "price": 32000
+    },
+    {
+      "id": 7,
+      "title": "2BHK Flat for Rent",
+      "category": "Real Estate",
+      "location": "Coimbatore",
+      "price": 15000
+    }
+  ]
+}

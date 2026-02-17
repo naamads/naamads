@@ -15,6 +15,7 @@ import {
   Heart,
 } from "lucide-react";
 import data from "../data/homepage.json";
+import CategoryGrid from "@/components/CatergoriesGrid";
 
 const HomePage: React.FC = () => {
   const { categories, features, recentListings } = data;
@@ -41,7 +42,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Categories */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Browse Categories</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -63,7 +64,8 @@ const HomePage: React.FC = () => {
             })}
           </div>
         </div>
-      </section>
+      </section> */}
+      <CategoryGrid />
 
       {/* Recent Listings */}
       <section className="py-16 bg-muted/30">
